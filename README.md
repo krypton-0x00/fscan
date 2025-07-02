@@ -11,7 +11,7 @@ A Rust CLI tool that:
 ---
 ## Prerequisites
 
-* Rust toolchain (stable) installed to build from source.
+* [Rust](https://rustup.rs/) toolchain (stable) installed to build from source.
 * `rustscan` installed and available in your PATH.
 * (optional) sudo privileges to install `nmap` if not already installed.
 
