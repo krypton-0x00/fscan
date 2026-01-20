@@ -94,7 +94,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let port_str = ports.join(",");
     println!("[+] Running nmap -p{} on {}", port_str, ip);
     Command::new("nmap")
-        .args(["-sC", "-sV", "-T5", "-Pn", "-p", &port_str, ip])
+        .args(["-sC", "-sV", "-T4", "-Pn", "-p", &port_str, ip])
         .status()
         .expect("Failed to run nmap");
 
